@@ -1,0 +1,24 @@
+{
+  "name": "node-express-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "mongodb",
+    "moralis"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.1",
+    "dotenv": "^12.0.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10"
+  }
+}
