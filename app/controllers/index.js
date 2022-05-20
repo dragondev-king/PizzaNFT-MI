@@ -25,7 +25,7 @@ async function getAllItems() {
     }
     cursor = data.cursor
     } catch (err) {
-      console.log(err)
+      // console.log(err)
     }
   } while (cursor != '' && cursor != null)
 }
@@ -54,7 +54,7 @@ async function getAllOwners() {
     }
     cursor = data.cursor
     } catch (err) {
-      console.log(err)
+      // console.log(err)
     }
   } while (cursor != '' && cursor != null)
 }
