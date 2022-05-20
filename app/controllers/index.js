@@ -5,7 +5,7 @@ const NftItem = db.table.NftItem
 const Owner = db.table.Owner
 
 async function getAllItems() {
-  console.log('---------')
+  // console.log('---------')
   let cursor = ""
   do {
     try {
@@ -32,7 +32,7 @@ async function getAllItems() {
 
 
 async function getAllOwners() {
-  console.log('==============')
+  // console.log('==============')
   let cursor = ""
   do {
     try {
